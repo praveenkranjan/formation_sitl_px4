@@ -2,7 +2,7 @@
 We provide a Robot operating system (ROS) package for controlling multiple vehilce to achieve desired shaped in gazebo based simulation that utilizes pixhawk autopilot with IRIS quadrotor and MAVROS for connection between subsystems. This package in particular subscribes vehicle state data and synchronizes the origin frame for all the vehicles for implementing the formation control guidance algorithm and publishes velocity setpoints to mavros topic '/uav0/mavros/setpoint_position/local' for executing control actuation by the autopilot. The main code can be found in /scripts/offb_node.cpp and
 ## Installation
 Clone the package to your catkin workspace and catkin_make. The destails for setting up the ROS and gazebo based SITL simulation an be found at [pixhawk documentation](https://docs.px4.io/main/en/simulation/multi-vehicle-simulation.html):
-[! [Preview] (https://docs.px4.io/main/assets/px4_sitl_overview.CtoNVhd6.svg)](https://docs.px4.io/main/assets/px4_sitl_overview.CtoNVhd6.svg)
+
 ## Implementation
 1) Start the simulation:
    - cd [your firmware location]
