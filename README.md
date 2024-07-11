@@ -1,2 +1,2 @@
-# formation_sitl_px4
-Mutli-vehicle simulation and guidance for formation control
+# Multi-vehicle Software-In-the-loop simulation framework for formation control for Quadrotor UAV.
+
